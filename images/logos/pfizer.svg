@@ -1,0 +1,5 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10,20 Q15,5 25,20 T40,20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <path d="M10,20 Q15,35 25,20 T40,20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <text x="50" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="22" fill="currentColor">Pfizer</text>
+</svg>

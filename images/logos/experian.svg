@@ -1,0 +1,5 @@
+<svg viewBox="0 0 140 40" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="15" cy="20" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="15" cy="20" r="2" fill="currentColor"/>
+  <text x="30" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="22" fill="currentColor">experian</text>
+</svg>

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z2B | Venture Builder для частных инвесторов</title>
+
+    <!-- Carta Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container container-wide">
+            <div class="header-inner">
+                <a href="#" class="logo font-serif font-bold text-xl text-accent"
+                    style="letter-spacing: -0.02em;">Z2B<span class="text-accent">_</span></a>
+
+                <nav class="nav desktop-only">
+                    <a href="#hero-cards" class="nav-link font-mono text-accent">Преимущества</a>
+                    <a href="#approach" class="nav-link font-mono text-accent">Подход</a>
+                    <a href="#roadmap" class="nav-link font-mono text-accent">Путь</a>
+                    <a href="#cases" class="nav-link font-mono text-accent">Кейсы</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="#contact" class="btn btn-primary text-sm">Начать диалог</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container container-wide grid-12">
+                <!-- Hero Content -->
+                <div class="col-span-8 hero-content reveal-up">
+                    <span class="font-mono text-xs text-accent uppercase tracking-wide mb-sm display-block">Venture
+                        Builder</span>
+                    <h1 class="font-serif text-5xl mb-md">
+                        Создаем Глобальные <br>
+                        <span class="text-accent">Цифровые Активы</span>
+                    </h1>
+                    <p class="text-xl text-secondary mb-lg max-w-600">
+                        Превращаем капитал в международный IT-бизнес с капитализацией $100M+. Английское право. Полный
+                        цикл управления.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="btn btn-primary">Начать диалог</a>
+                        <span class="text-sm text-secondary">Бюджеты от $200k. Конфиденциально.</span>
+                    </div>
+                </div>
+
+                <!-- Hero Animation / Cards Area -->
+                <div class="col-span-4 hero-cards-container reveal-up" style="transition-delay: 0.2s;">
+                    <!-- Auto-rotating Cards Stack -->
+                    <div id="heroCardStack" class="card-stack">
+                        <!-- Card 1 -->
+                        <div class="hero-card active">
+                            <h3 class="font-serif text-xl mb-xs">1. Глобальный доход</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Выручка в твердой валюте</p>
+                            <p class="text-sm">Строим бизнес, который генерирует доход в USD/EUR на рынках США, Европы и
+                                MENA.</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">2. Капитализация</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Цель: Оценка $100M+</p>
+                            <p class="text-sm">Мы не просто пишем код, мы создаем инвестиционный актив, растущий в цене
+                                (Equity Growth).</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">3. Plan B / Статус</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Ваш «Запасной аэродром»</p>
+                            <p class="text-sm">Владение международной IT-компанией — основа для ВНЖ и виз талантов (O-1,
+                                Global Talent).</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">4. Наследие</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Бизнес для будущих поколений</p>
+                            <p class="text-sm">Создаем белый, масштабируемый актив, который можно передать по
+                                наследству.</p>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">5. Exit Strategy</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Ликвидность актива</p>
+                            <p class="text-sm">Строим компанию с прицелом на продажу стратегическому инвестору (M&A) или
+                                IPO с первого дня.</p>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">6. Юридическая защита</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Английское право</p>
+                            <p class="text-sm">Структурируем владение через Delaware C-Corp или ОАЭ/UK для защиты
+                                бенефициара.</p>
+                        </div>
+                        <!-- Card 7 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">7. IP Rights</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">100% контроль активов</p>
+                            <p class="text-sm">Весь программный код, базы данных и торговые марки принадлежат вашей
+                                холдинговой компании.</p>
+                        </div>
+                        <!-- Card 8 -->
+                        <div class="hero-card">
+                            <h3 class="font-serif text-xl mb-xs">8. Банковский комплаенс</h3>
+                            <p class="text-xs text-secondary mb-sm uppercase">Прямая банковская работа</p>
+                            <p class="text-sm">Чистая структура владения, позволяющая работать с первоклассными банками
+                                и фондами.</p>
+                        </div>
+                    </div>
+                    <!-- Controls/Progress -->
+                    <div class="hero-card-controls">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="heroProgress"></div>
+                        </div>
+                        <div class="card-counter font-mono text-xs"><span id="currentHeroCard">01</span> / 08</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Canvas Background Layer -->
+            <div class="hero-canvas-layer">
+                <canvas id="heroGraph"></canvas>
+            </div>
+        </section>
+
+        <!-- Why IT (Context) -->
+        <section class="section bg-subtle" id="context">
+            <div class="container container-wide">
+                <div class="grid-12 mb-lg">
+                    <div class="col-span-4 reveal-up">
+                        <span class="font-mono text-xs text-accent uppercase">01 Контекст</span>
+                        <h2 class="font-serif text-3xl mt-xs">Почему крупный капитал уходит в технологии?</h2>
+                    </div>
+                    <div class="col-span-8 insight-row reveal-up">
+                        <div class="insight-item">
+                            <h4 class="font-mono text-sm font-bold mb-xs uppercase text-accent">01 Мобильность</h4>
+                            <p class="text-sm text-secondary">IT-компанию невозможно заблокировать. Бизнес работает
+                                глобально.</p>
+                        </div>
+                        <div class="insight-item">
+                            <h4 class="font-mono text-sm font-bold mb-xs uppercase text-accent">02 Капитализация ×10
+                            </h4>
+                            <p class="text-sm text-secondary">Мультипликаторы 10-15x для tech-компаний. Выручка на
+                                множестве рынков.</p>
+                        </div>
+                        <div class="insight-item">
+                            <h4 class="font-mono text-sm font-bold mb-xs uppercase text-accent">03 Защита IP</h4>
+                            <p class="text-sm text-secondary">Интеллектуальная собственность защищена международным
+                                правом. USA/UK.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Marquee -->
+        <section class="section py-md" id="partners">
+            <div class="container container-wide">
+                <span class="font-mono text-xs text-secondary uppercase tracking-wide mb-md display-block">Работаем с
+                    лидерами</span>
+
+                <div class="partner-logos-static">
+                    <img src="images/logos_extracted/logo_01.png" alt="Partner 1" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_02.png" alt="Partner 2" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_03.png" alt="Partner 3" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_04.png" alt="Partner 4" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_05.png" alt="Partner 5" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_06.png" alt="Partner 6" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_07.png" alt="Partner 7" class="partner-logo-img">
+                    <img src="images/logos_extracted/logo_08.png" alt="Partner 8" class="partner-logo-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Approach (Model) -->
+        <section class="section bg-subtle" id="approach">
+            <div class="container container-wide">
+                <div class="grid-12 mb-xl">
+                    <div class="col-span-4 reveal-up">
+                        <span class="font-mono text-xs text-accent uppercase">02 Модель</span>
+                        <h2 class="font-serif text-3xl mt-xs">Venture Builder as a Service</h2>
+                        <p class="text-lg text-secondary mt-sm">Мы — ваш партнер и генеральный подрядчик в цифровом
+                            мире.</p>
+                    </div>
+                    <div class="col-span-8 reveal-up model-desc-col">
+                        <div class="model-tags-wrapper">
+                            <span class="model-tag">проработка идеи</span>
+                            <span class="model-tag">продуктовое управление</span>
+                            <span class="model-tag">старт с нашей командой</span>
+                            <span class="model-tag">найм ядра коллектива проекта</span>
+                            <span class="model-tag">юридическое структурирование и поддержка</span>
+                            <span class="model-tag">проектное управление</span>
+                            <span class="model-tag">разработка</span>
+                            <span class="model-tag">маркетинг и продажи</span>
+                            <span class="model-tag">сопровождение</span>
+                            <span class="model-tag">контроль качества и безопасность</span>
+                            <span class="model-tag">менеджмент</span>
+                            <span class="model-tag">аналитика</span>
+                            <span class="model-tag">отчетность</span>
+                            <span class="model-tag">оптимизация процессов и повышение эффективности</span>
+                            <span class="model-tag">привлечение инвестиций</span>
+                            <span class="model-tag">финансовое управление</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison Table -->
+                <div class="grid-12 comparison-table reveal-up">
+                    <div class="col-span-6 comparison-col left">
+                        <h3 class="font-serif text-2xl mb-md">Своими силами</h3>
+                        <ul class="comparison-list">
+                            <li><span>Риск провала</span> <span class="text-secondary">90%</span></li>
+                            <li><span>Поиск команды</span> <span class="text-secondary">С нуля</span></li>
+                            <li><span>Результат</span> <span class="text-secondary">Просто код</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-span-6 comparison-col right active">
+                        <h3 class="font-serif text-2xl mb-md text-accent">С Z2B</h3>
+                        <ul class="comparison-list">
+                            <li><span>Успех</span> <span class="text-accent font-bold">до 87%</span></li>
+                            <li><span>Команда</span> <span class="text-accent font-bold">Tiger Team с опытом</span></li>
+                            <li><span>Результат</span> <span class="text-accent font-bold">Работающий бизнес</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ecosystem -->
+        <section class="section bg-dark text-white" id="ecosystem">
+            <div class="container container-wide">
+                <div class="mb-lg reveal-up">
+                    <span class="font-mono text-xs text-accent uppercase">03 Экосистема</span>
+                    <h2 class="font-serif text-3xl mt-xs">Экосистема создания бизнеса</h2>
+                </div>
+
+                <div class="grid-12 grid-bordered">
+                    <div class="col-span-4 eco-card reveal-up">
+                        <h4 class="font-sans font-bold text-lg mb-xs">Стратегия</h4>
+                        <p class="text-sm text-secondary">Анализ рынка, поиск голубого океана, финансовая модель.</p>
+                    </div>
+                    <div class="col-span-4 eco-card reveal-up" style="transition-delay: 0.1s;">
+                        <h4 class="font-sans font-bold text-lg mb-xs">Технологии</h4>
+                        <p class="text-sm text-secondary">Web, Mobile, AI, Blockchain. Enterprise-уровень.</p>
+                    </div>
+                    <div class="col-span-4 eco-card reveal-up" style="transition-delay: 0.2s;">
+                        <h4 class="font-sans font-bold text-lg mb-xs">Legal</h4>
+                        <p class="text-sm text-secondary">IP-защита, структурирование, комплаенс.</p>
+                    </div>
+                    <div class="col-span-4 eco-card reveal-up">
+                        <h4 class="font-sans font-bold text-lg mb-xs">Growth</h4>
+                        <p class="text-sm text-secondary">Маркетинг, продажи, международная экспансия.</p>
+                    </div>
+                    <div class="col-span-4 eco-card reveal-up" style="transition-delay: 0.1s;">
+                        <h4 class="font-sans font-bold text-lg mb-xs">Team</h4>
+                        <p class="text-sm text-secondary">CEO и ключевые сотрудники с релевантным опытом.</p>
+                    </div>
+                    <div class="col-span-4 eco-card reveal-up bg-subtle flex-center" style="transition-delay: 0.2s;">
+                        <span class="text-accent font-medium font-mono">Полный цикл запуска</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Magnet 1 -->
+        <section class="section bg-subtle">
+            <div class="container container-wide grid-12">
+                <div class="col-span-12 lead-magnet-horizontal reveal-up">
+                    <div class="lm-left">
+                        <span class="font-mono text-xs text-secondary uppercase mb-xs display-block">Insight</span>
+                        <h3 class="font-serif text-2xl">Архитектура Единорога</h3>
+                    </div>
+                    <div class="lm-mid">
+                        <p class="text-base text-secondary">Playbook: Как строятся компании с оценкой $1 млрд. От идеи
+                            до IPO.</p>
+                    </div>
+                    <div class="lm-right">
+                        <form class="lm-form" data-lm-id="insight" novalidate>
+                            <input type="email" placeholder="Email" class="lm-input">
+                            <button type="submit" class="btn btn-primary lm-btn">Скачать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap -->
+        <section class="section" id="roadmap">
+            <div class="container container-wide">
+                <div class="mb-xl reveal-up">
+                    <span class="font-mono text-xs text-accent uppercase">04 Путь</span>
+                    <h2 class="font-serif text-3xl mt-xs">5 лет до единорога</h2>
+                </div>
+
+                <div class="roadmap-timeline grid-12">
+                    <div class="col-span-3 roadmap-step reveal-up">
+                        <div class="step-marker"></div>
+                        <span class="year-label">Y0-1</span>
+                        <h4 class="font-serif text-xl mb-xs">Launch</h4>
+                        <p class="text-sm text-secondary">MVP, первые продажи, валидация.</p>
+                    </div>
+
+                    <div class="col-span-3 roadmap-step reveal-up" style="transition-delay: 0.1s;">
+                        <div class="step-marker"></div>
+                        <span class="year-label">Y1-2</span>
+                        <h4 class="font-serif text-xl mb-xs">Traction</h4>
+                        <p class="text-sm text-secondary">Выручка $1M+, Product-Market Fit.</p>
+                    </div>
+
+                    <div class="col-span-3 roadmap-step reveal-up" style="transition-delay: 0.2s;">
+                        <div class="step-marker"></div>
+                        <span class="year-label">Y2-3</span>
+                        <h4 class="font-serif text-xl mb-xs">Scale</h4>
+                        <p class="text-sm text-secondary">США/EU экспансия, Series A.</p>
+                    </div>
+
+                    <div class="col-span-3 roadmap-step reveal-up active" style="transition-delay: 0.3s;">
+                        <div class="step-marker highlight"></div>
+                        <span class="year-label text-accent">Y5+</span>
+                        <h4 class="font-serif text-xl mb-xs text-accent">Exit</h4>
+                        <p class="text-sm text-secondary">IPO / Стратегическая продажа. $1B.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benchmarks -->
+        <section class="section bg-subtle" id="cases">
+            <div class="container container-wide">
+                <div class="mb-lg reveal-up">
+                    <span class="font-mono text-xs text-accent uppercase">Бенчмарки рынка</span>
+                    <h2 class="font-serif text-3xl mt-xs">Международный успех фаундеров из СНГ</h2>
+                    <p class="text-secondary mt-sm max-w-600">Это не случайность, а система. Компании с русскоязычными
+                        корнями, ставшие глобальными лидерами.</p>
+                </div>
+
+                <div class="benchmarks-container reveal-up">
+                    <!-- Changing Card Area -->
+                    <div class="bm-card-display">
+                        <div class="bm-card-content" id="bmCardContent">
+                            <!-- Dynamic Content Injected Here by JS -->
+                        </div>
+                        <div class="bm-img-placeholder">
+                            <!-- Optional visual or logo -->
+                            <div class="bm-logo-large" id="bmLogoLarge">R</div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation List -->
+                    <div class="bm-nav-list" id="bmNavList">
+                        <!-- Items generated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Magnet 2 -->
+        <section class="section">
+            <div class="container container-wide grid-12">
+                <div class="col-span-12 lead-magnet-horizontal reveal-up">
+                    <div class="lm-left">
+                        <span class="font-mono text-xs text-secondary uppercase mb-xs display-block">Legal Guide</span>
+                        <h3 class="font-serif text-2xl">Юридический гид</h3>
+                    </div>
+                    <div class="lm-mid">
+                        <p class="text-base text-secondary">Справка по структуре IT-холдинга. Схема "Двойной мост": США
+                            + ОАЭ.</p>
+                    </div>
+                    <div class="lm-right">
+                        <form class="lm-form" data-lm-id="legal" novalidate>
+                            <input type="email" placeholder="Email" class="lm-input">
+                            <button type="submit" class="btn btn-primary lm-btn">Получить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Profile (Redesigned) -->
+        <section class="section bg-dark text-white" id="partner-profile">
+            <div class="container container-wide grid-12">
+                <div class="col-span-5 partner-image-col reveal-up">
+                    <div class="partner-photo-frame">
+                        <img src="images/valentin-butyugin.jpg" alt="Валентин Бутюгин"
+                            class="partner-photo grayscale-img">
+                        <div class="photo-accent-border"></div>
+                    </div>
+                </div>
+                <div class="col-span-7 col-start-6 partner-content-col reveal-up">
+                    <span class="font-mono text-xs text-white uppercase mb-xs display-block">Управляющий
+                        партнер</span>
+                    <h2 class="font-serif text-3xl mb-sm text-white">Валентин Бутюгин</h2>
+
+                    <p class="text-lg text-white mb-sm leading-normal font-serif italic">
+                        Архитектор международных цифровых активов с потенциалом $1B+
+                    </p>
+
+                    <p class="text-sm text-secondary-light mb-md leading-normal">
+                        20+ лет экспертизы (ex-Microsoft, IBM, Experian). 500+ реализованных IT-проектов.
+                    </p>
+
+                    <div class="partner-meta mb-lg">
+                        <p class="font-mono text-xs text-secondary-light uppercase mb-xs">SF / Singapore / Almaty /
+                            India</p>
+                    </div>
+
+                    <div class="partner-brands-grid">
+                        <img src="images/logos_extracted/logo_10.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_11.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_12.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_13.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_14.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_15.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_16.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_17.png" alt="Brand" class="brand-logo">
+                        <img src="images/logos_extracted/logo_18.png" alt="Brand" class="brand-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legal & Finance -->
+        <section class="section bg-subtle">
+            <div class="container container-wide">
+                <div class="grid-12">
+                    <div class="col-span-6 reveal-up pr-lg border-right">
+                        <span class="font-mono text-xs text-accent uppercase mb-sm display-block">06 Защита</span>
+                        <h3 class="font-serif text-2xl mb-md">Международная защита актива</h3>
+                        <div class="protection-grid mt-md">
+                            <div class="protection-card">
+                                <div class="card-icon-box">
+                                    <span class="font-mono text-accent">USA</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-xs">IP Center (USA / UK)</h4>
+                                    <p class="text-sm text-secondary">Владение кодом и брендом. Защита интеллектуальной
+                                        собственности по международному праву.</p>
+                                </div>
+                            </div>
+                            <div class="protection-card">
+                                <div class="card-icon-box">
+                                    <span class="font-mono text-accent">UAE</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-xs">Operations (UAE / Cyprus)</h4>
+                                    <p class="text-sm text-secondary">Управление денежными потоками. Оптимизация
+                                        налогообложения и операционная эффективность.</p>
+                                </div>
+                            </div>
+                            <div class="protection-card">
+                                <div class="card-icon-box">
+                                    <span class="font-mono text-accent">GLB</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-xs">R&D (Global)</h4>
+                                    <p class="text-sm text-secondary">Распределенная разработка. Доступ к лучшим
+                                        талантам по всему миру без привязки к локации.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-6 reveal-up pl-lg">
+                        <span class="font-mono text-xs text-accent uppercase mb-sm display-block">07 Экономика</span>
+                        <h3 class="font-serif text-2xl mb-md">Cost + Management Fee</h3>
+                        <div class="finance-block bg-white p-md" style="border: 1px solid var(--c-border);">
+                            <div class="mb-md">
+                                <span class="font-serif text-xl display-block">Cost</span>
+                                <p class="text-sm text-secondary">Прямые расходы на команду и инфраструктуру</p>
+                            </div>
+                            <div class="mb-md">
+                                <span class="font-serif text-xl display-block">+ Fee</span>
+                                <p class="text-sm text-secondary">Управление проектом и контроль качества</p>
+                            </div>
+                            <div class="mb-md">
+                                <span class="font-serif text-xl display-block text-accent">+ Equity</span>
+                                <p class="text-sm text-secondary">Миноритарная доля в успехе проекта</p>
+                            </div>
+                            <p class="text-sm text-secondary mt-lg border-t pt-sm">
+                                Полная прозрачность процессов. Вы видите каждый счёт и каждую транзакцию.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq">
+            <div class="container container-wide">
+                <h2 class="font-serif text-3xl mb-lg">FAQ</h2>
+
+                <div class="faq-accordion max-w-800 mx-auto">
+                    <!-- Item 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-title">Смогу ли я контролировать бизнес без IT-опыта?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-body">
+                                <p>Да. Вы — инвестор и стратег. Мы переводим технические метрики на язык бизнеса.
+                                    Еженедельные отчёты, доступ ко всем системам.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-title">Кому принадлежит код и технологии?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-body">
+                                <p>Только вашей компании. Полное отчуждение прав. Вы — единственный владелец IP.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-title">Можно ли запустить проект анонимно?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-body">
+                                <p>Да. Структурирование через трасты или номинальный сервис в рамках законодательства.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span class="faq-title">Что если проект не взлетит?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-body">
+                                <p>Венчур — это риск. Но методология позволяет остановить проект рано, сохранив
+                                    значительную часть капитала.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-xl text-center reveal-up faq-cta-container">
+                    <p class="text-secondary text-xs uppercase tracking-widest mb-xs">Остались вопросы?</p>
+                    <a href="#contact" class="text-accent hover-underline font-serif text-xl">Задайте их на
+                        индивидуальной консультации &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Magnet 3 -->
+        <section class="section bg-subtle">
+            <div class="container container-wide grid-12">
+                <div class="col-span-12 lead-magnet-horizontal reveal-up">
+                    <div class="lm-left">
+                        <span class="font-mono text-xs text-secondary uppercase mb-xs display-block">Research</span>
+                        <h3 class="font-serif text-2xl">30 ниш для старта в 2026</h3>
+                    </div>
+                    <div class="lm-mid">
+                        <p class="text-base text-secondary">FinTech, AI, EdTech — отобранные направления с потенциалом
+                            $1B+.</p>
+                    </div>
+                    <div class="lm-right">
+                        <form class="lm-form" data-lm-id="research" novalidate>
+                            <input type="email" placeholder="Email" class="lm-input">
+                            <button type="submit" class="btn btn-primary lm-btn">Получить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strategic Session & Contact (Redesigned) -->
+        <section class="section bg-dark text-white" id="contact">
+            <div class="container container-wide grid-12">
+                <div class="col-span-5 reveal-up">
+                    <span class="font-mono text-xs text-accent uppercase mb-sm display-block">Первый шаг</span>
+                    <h2 class="font-serif text-4xl mb-lg">Стратегическая сессия</h2>
+
+                    <div class="session-features-grid mb-lg">
+                        <div class="session-feature-card">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Аудит ваших целей и ресурсов</span>
+                        </div>
+                        <div class="session-feature-card">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Подбор бизнес-модели и ниши</span>
+                        </div>
+                        <div class="session-feature-card">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Предварительная смета и роадмап</span>
+                        </div>
+                        <div class="session-feature-card">
+                            <span class="feature-icon">✓</span>
+                            <span class="feature-text">Юридическая консультация</span>
+                        </div>
+                    </div>
+
+                    <div class="session-format-card">
+                        <span class="format-label">Формат</span>
+                        <p class="format-value">2-3 встречи с партнерами</p>
+                    </div>
+                </div>
+
+                <div class="col-span-7 col-start-6 reveal-up">
+                    <div class="contact-box-dark">
+                        <h3 class="font-serif text-2xl mb-sm">Начните обсуждение</h3>
+                        <p class="text-sm text-white-dim mb-lg">Ответим в течение 24 часов. Гарантируем полную
+                            конфиденциальность.</p>
+
+                        <form class="contact-form-dark" id="strategicForm" novalidate>
+                            <div class="contact-form-grid gap-md mb-md">
+                                <input type="text" name="name" placeholder="Имя" class="form-input-dark">
+                                <input type="text" name="contact" placeholder="Telegram / WhatsApp / Email"
+                                    class="form-input-dark" required>
+                            </div>
+                            <textarea name="message" rows="3" placeholder="Краткое описание задачи (опционально)"
+                                class="form-input-dark mb-md"></textarea>
+                            <button type="submit" class="btn btn-primary btn-submit w-full">Отправить заявку</button>
+                        </form>
+
+                        <div class="contact-methods-wrapper">
+                            <div class="contact-method">
+                                <span class="contact-label">WhatsApp</span>
+                                <a href="https://wa.me/77052678243" class="contact-link">+7 705 267 82 43</a>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:go@tm500.top" class="contact-link">go@tm500.top</a>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-label">Telegram</span>
+                                <a href="https://t.me/MTTMSF" class="contact-link">@MTTMSF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-footer border-t border-white-10 pb-xl" style="padding-top: 120px;">
+        <div class="container container-wide grid-12">
+
+            <!-- Brand Row -->
+            <div class="col-span-12 mb-xs">
+                <div class="footer-brand">
+                    <a href="#" class="logo font-serif font-bold text-2xl text-white mb-xs display-block">Z2B<span
+                            class="text-accent">_</span></a>
+                    <p class="text-sm text-white-dim">Venture Builder as Service</p>
+                </div>
+            </div>
+
+            <!-- Legal Text Block (Bank Style) -->
+            <div class="col-span-12">
+                <div
+                    class="legal-text-block text-justify text-xs text-white-dim opacity-50 font-secondary leading-normal">
+                    <p class="mb-sm">
+                        © 2026 Z2B. Все права защищены. Оператор сервиса: ТОО «Армит» (Республика Казахстан).
+                        Взаимодействие с партнерами и экспертами в юрисдикциях США, Индии, Кипра, ОАЭ и Армении
+                        осуществляется на основании отдельных партнерских соглашений и обсуждается в каждом проекте
+                        индивидуально.
+                    </p>
+                    <p class="mb-sm">
+                        <strong>Отказ от ответственности:</strong> Содержимое данного ресурса носит исключительно
+                        информационный характер и предназначено для ознакомления с методологией создания цифровых
+                        активов. ТОО «Армит» и проект Z2B (включая его представителей) не являются инвестиционными
+                        советниками, брокерами или дилерами в понимании Securities Act of 1933 (США) или
+                        законодательства иных стран. Мы не оказываем юридических, налоговых, бухгалтерских или
+                        банковских услуг. Любые упоминания целевой капитализации в $1 млрд (Unicorn status) являются
+                        стратегическими ориентирами методологии Z2B, основанными на рыночных бенчмарках, и не являются
+                        гарантией будущих финансовых результатов или доходности.
+                    </p>
+                    <p class="mb-sm">
+                        <strong>Предупреждение о рисках:</strong> Венчурное строительство (Venture Building) и запуск
+                        технологических продуктов сопряжены с высоким уровнем неопределенности и риском полной потери
+                        капитала. Прошлые успехи фаундеров или аналогичных проектов не гарантируют повторения
+                        результатов в будущем. VBaaS (Venture Builder as a Service) — модель операционного партнерства
+                        по созданию цифровых активов, не подразумевающая доверительного управления средствами.
+                    </p>
+                    <p class="mb-sm">
+                        <strong>Конфиденциальность и защита данных:</strong> Мы придерживаемся международных стандартов
+                        защиты интеллектуальной собственности и личной безопасности клиентов. ТОО «Армит» собирает
+                        только минимально необходимые контактные сведения через формы связи. В соответствии с внутренним
+                        регламентом безопасности, все поступающие заявки и связанные с ними персональные данные
+                        автоматически и безвозвратно удаляются (уничтожаются) из всех автоматизированных баз данных и
+                        CRM-систем через 10 (десять) календарных дней после их поступления. Мы не продаем и не передаем
+                        ваши данные третьим лицам.
+                    </p>
+                    <p>
+                        Использование данного сайта не является публичной офертой и означает ваше согласие с Политикой
+                        конфиденциальности и Условиями использования.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Locations Row -->
+            <div class="col-span-12 text-xs text-white-dim opacity-40 font-mono mt-xs">
+                Kazakhstan | Armenia | UAE
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <!-- Custom Popup -->
+    <div id="customPopup" class="popup-overlay hidden">
+        <div class="popup-card">
+            <div class="popup-icon" id="popupIcon">!</div>
+            <h3 class="popup-title" id="popupTitle">Внимание</h3>
+            <p class="popup-message" id="popupMessage">Пожалуйста, заполните обязательное поле.</p>
+            <button class="btn btn-primary popup-close" id="popupClose">OK</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

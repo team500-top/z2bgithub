@@ -1,0 +1,5 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15,20 c0,-8 12,-8 12,0 c0,8 -12,8 -12,0 M21,20 c0,-6 4,-6 4,0 c0,6 -4,6 -4,0" fill="none" stroke="currentColor" stroke-width="2"/>
+  <ellipse cx="21" cy="14" rx="14" ry="9" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="45" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="currentColor">TOYOTA</text>
+</svg>

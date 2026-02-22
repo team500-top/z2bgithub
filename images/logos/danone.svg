@@ -1,0 +1,5 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10,25 Q25,35 40,25" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="25" cy="15" r="3" fill="currentColor"/>
+  <text x="50" y="26" font-family="Arial, sans-serif" font-weight="bold" font-size="22" fill="currentColor">DANONE</text>
+</svg>
